@@ -1,0 +1,120 @@
+
+[37;46;1mTest file: /Users/ctuo/Project/phantomcss/demo/landing_page_visual_test.js      [0m
+[33m# landing page visual test[0m
+[32;1mPASS[0m landing page visual test [32;1m(NaN test)[0m
+[object Object]
+ABD
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/energy_score_4.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/house_location_5.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/investment_insights_8.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/landing_page_0.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/market_trends_9.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/nearby_schools_10.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/neighbouring_property_7.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/p4ep_page_0.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/property_attributes_3.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/property_header_1.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/property_history_2.png
+Failure! Saved to /Users/ctuo/Project/phantomcss/demo/failures/similar_home_6.fail.png
+
+
+[37;41;1mFAIL[0m Visual change found for screenshot /Users/ctuo/Project/phantomcss/screenshots/similar_home_6.png (0.94% mismatch)
+[33m#    type: fail[0m
+[33m#    file: /Users/ctuo/Project/phantomcss/demo/landing_page_visual_test.js[0m
+[33m#    subject: false[0m
+
+PhantomCSS found 12 tests, 1 of them failed.
+
+PhantomCSS has created some images that try to show the difference (in the directory /Users/ctuo/Project/phantomcss/demo/failures). Fuchsia colored pixels indicate a difference betwen the new and old screenshots.
+
+THE END.
+[37;41;1mFAIL 12 tests executed in 36.639s, 11 passed, 1 failed, 0 dubious, 0 skipped.   [0m
+[36m
+Details for the 1 failed test:
+[0m
+In /Users/ctuo/Project/phantomcss/demo/landing_page_visual_test.js
+[36m  landing page visual test[0m
+[33m    fail: Visual change found for screenshot /Users/ctuo/Project/phantomcss/screenshots/similar_home_6.png (0.94% mismatch)[0m
+[37;46;1mTest file: /Users/ctuo/Project/phantomcss/demo/p4ep_visual_test.js              [0m
+[33m# p4ep visual test[0m
+[32;1mPASS[0m p4ep visual test [32;1m(NaN test)[0m
+[object Object]
+ABD
+Google Maps API warning: RetiredVersion https://developers.google.com/maps/documentation/javascript/error-messages#retired-version
+Google Maps API warning: SensorNotRequired https://developers.google.com/maps/documentation/javascript/error-messages#sensor-not-required
+*** Ad Initialised ***
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/energy_score_4.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/house_location_5.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/investment_insights_8.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/landing_page_0.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/market_trends_9.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/nearby_schools_10.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/neighbouring_property_7.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/p4ep_page_0.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/property_attributes_3.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/property_header_1.png
+
+
+[32;1mPASS[0m No changes found for screenshot /Users/ctuo/Project/phantomcss/screenshots/property_history_2.png
+Failure! Saved to /Users/ctuo/Project/phantomcss/demo/failures/similar_home_6.1.fail.png
+
+
+[37;41;1mFAIL[0m Visual change found for screenshot /Users/ctuo/Project/phantomcss/screenshots/similar_home_6.png (0.94% mismatch)
+[33m#    type: fail[0m
+[33m#    file: /Users/ctuo/Project/phantomcss/demo/p4ep_visual_test.js[0m
+[33m#    subject: false[0m
+
+PhantomCSS found 12 tests, 1 of them failed.
+
+PhantomCSS has created some images that try to show the difference (in the directory /Users/ctuo/Project/phantomcss/demo/failures). Fuchsia colored pixels indicate a difference betwen the new and old screenshots.
+
+THE END.
+[37;41;1mFAIL 12 tests executed in 55.376s, 11 passed, 1 failed, 0 dubious, 0 skipped.   [0m
+[36m
+Details for the 1 failed test:
+[0m
+In /Users/ctuo/Project/phantomcss/demo/p4ep_visual_test.js
+[36m  p4ep visual test[0m
+[33m    fail: Visual change found for screenshot /Users/ctuo/Project/phantomcss/screenshots/similar_home_6.png (0.94% mismatch)[0m

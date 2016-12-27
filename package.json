@@ -1,0 +1,62 @@
+{
+  "name": "phantomcss",
+  "version": "1.1.2",
+  "description": "A CasperJS module for automating visual regression testing of Web apps, live style guides and responsive layouts.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Huddle/PhantomCSS.git"
+  },
+  "main": "phantomcss.js",
+  "keywords": [
+    "css",
+    "phantomjs",
+    "casperjs",
+    "testing",
+    "visual regression",
+    "responsive"
+  ],
+  "author": {
+    "name": "James Cryer / Huddle"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Huddle/PhantomCSS/issues"
+  },
+  "dependencies": {
+    "phantomjs-prebuilt": "^2.1.4",
+    "casperjs": "git://github.com/n1k0/casperjs.git",
+    "resemblejs": "^2.2.0"
+  },
+  "gitHead": "0226f8ee8b8841de782f7ab267a44cd31b0c4fc8",
+  "homepage": "https://github.com/Huddle/PhantomCSS",
+  "_id": "phantomcss@1.1.2",
+  "scripts": {},
+  "_shasum": "eb6997cfc9163ad028324916825488d06496420c",
+  "_from": "phantomcss@latest",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "jamescryer",
+    "email": "james.cryer@huddle.com"
+  },
+  "dist": {
+    "shasum": "eb6997cfc9163ad028324916825488d06496420c",
+    "tarball": "https://registry.npmjs.org/phantomcss/-/phantomcss-1.1.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "jamescryer",
+      "email": "james.cryer@huddle.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/phantomcss-1.1.2.tgz_1462873741305_0.7477881021331996"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/phantomcss/-/phantomcss-1.1.2.tgz",
+  "devDependencies": {
+    "casperjs": "git://github.com/n1k0/casperjs.git",
+    "webpage": "^0.3.0"
+  }
+}
