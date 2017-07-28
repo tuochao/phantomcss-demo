@@ -7,22 +7,28 @@ phantomcss.init( {
     // SlimerJS needs explicit knowledge of this Casper, and lots of absolute paths
     casper: casper,
     libraryRoot: fs.absolute( fs.workingDirectory + '' ),
-    screenshotRoot: fs.absolute( fs.workingDirectory + '/screenshots' ),
-    failedComparisonsRoot: fs.absolute( fs.workingDirectory + '/demo/failures' ),
+    screenshotRoot: fs.absolute( fs.workingDirectory + '/screenshots/baidu' ),
+    failedComparisonsRoot: fs.absolute( fs.workingDirectory + '/failures/baidu' ),
     addLabelToFailedImage: false,
 } );
 
-casper.test.begin( 'take landing page baseline', function ( test ) {    /*
+casper.test.begin( 'take sells hub web baseline', function ( test ) {
+    /*
         The test scenario
     */
     //capture screenshot from prod env as every test
-    casper.start('https://www.realestate.com.au/property');
+    casper.start('http://www.baidu.com');
 
     //specify the size of browser
     casper.viewport( 1280, 1024 );
 
     casper.then( function () {
-        phantomcss.screenshot( '#my-property', 'landing_page' );
+        phantomcss.screenshot({'baidu': {selector: '#wrapper', ignore: '#su'}} );
+    })
+
+    casper.then( function () {
+        //compare screenshots
+        phantomcss.compareAll();
     })
 
 	/*
